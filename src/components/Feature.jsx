@@ -51,14 +51,14 @@ function Feature() {
           App Features
         </h1>
 
-        <div className="mt-12 h-auto mb-4 pt-4 w-full">
+        <div className="mt-12 h-auto mb-4 pt-4 w-screen sm:w-full">
           <div className="mx-auto max-w-4xl w-full">
             <Slider {...settings} className="mx-auto">
               {data.map((value, index) => (
                 <div className="px-4" key={index}>
                   <div className="flex sm:flex-row flex-col justify-evenly sm:items-center feature">
                     {/* Responsive Image Section */}
-                    <div className="w-1/2 lg:w-1/3">
+                    <div className="w-screen sm:w-1/3">
                       <img
                         src={value.src}
                         alt="app-img"
@@ -67,7 +67,7 @@ function Feature() {
                     </div>
 
                     {/* Responsive Text Section */}
-                    <div className="p-5 w-1/2 lg:w-2/3 text-left">
+                    <div className="p-5 screen sm:w-2/3 text-left">
                       <h2 className="text-[#637b89] text-base sm:text-4xl font-medium mt-0 mb-4">{value.heading}</h2>
                       <p className="sm:text-lg text-sm mb-4">{value.para}</p>
                     </div>
