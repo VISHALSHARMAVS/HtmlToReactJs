@@ -15,7 +15,7 @@ function CaseStudy() {
         >
           Case Study
         </h1>
-        <div className="mt-12 mb-4 pt-4">
+        <div id="newsSliderClient"  className="mt-12 mb-4 pt-4">
           <div className="mx-auto max-w-4xl">
             <Swiper
 

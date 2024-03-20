@@ -11,7 +11,7 @@ import {
 
 function Banner() {
   return (
-    <div className=" bg-white px-4 mx-auto py-24 mb-6 w-screen md:w-full">
+    <div className=" bg-white px-4 mt-6 mx-auto py-24 mb-6 w-screen md:w-full">
       <div className="flex flex-col sm:flex-row items-center justify-start lg:ml-28">
         {/* Responsive Text and Image Section */}
         <div className="my-2 relative w-full px-4">
@@ -34,7 +34,7 @@ function Banner() {
             Unlock 1 Billion Dreams <br />
             With Our AI Driven English Learning APP
           </h4>
-          <ul className="text-black sm:pl-10 pl-0 w-96  sm:my-6 text-sm list-disc">
+          <ul className="text-black sm:pl-10 pl-0 sm:w-96 w-full  sm:my-6 text-sm list-disc">
             <li className=" text-start">
               Elevate Your Language Skills for Interviews and Exams
             </li>

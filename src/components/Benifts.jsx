@@ -12,7 +12,7 @@ function Benifit() {
         >
           Key Benefits
         </h1>
-        <div className="mt-12 flex items-center justify-evenly w-full ">
+        <div className="mt-12 flex sm:flex-row flex-col items-center justify-evenly w-full ">
           {/* Responsive Benefit Cards */}
           <div className="flex flex-col items-center justify-center w-full md:w-1/3 text-center  px-4 mt-2">
             <img src={benefit1} alt="feature-img" width="180px" className="max-w-full h-auto align-middle rounded" />
