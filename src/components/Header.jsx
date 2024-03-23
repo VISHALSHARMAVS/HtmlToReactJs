@@ -38,13 +38,13 @@ function Header() {
             </div>
             <ul className=" flex flex-col items-center justify-between min-h-[250px]">
               <li className="border-b border-gray-400 my-8 uppercase">
-                <a href="/about">About Us</a>
+                <a href="#">About Us</a>
               </li>
               <li className="border-b border-gray-400 my-8 uppercase">
-                <a href="/portfolio">SimplyEnglish Web</a>
+                <a href="#">SimplyEnglish Web</a>
               </li>
               <li className="border-b border-gray-400 my-8 uppercase">
-                <a href="/contact">Blogs</a>
+                <a href="#">Blogs</a>
               </li>
             </ul>
           </div>
